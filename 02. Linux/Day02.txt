@@ -1,0 +1,171 @@
+Module 2: Linux Fundamentals | Day 02 | 31-12-2025
+============================================================================================================
+What is an OS?
+OS is a software which is used to interact with the machines (Physical machines or Virtual machines)
+It acts as a mediator between the user and the machine
+OS is mandatory, because it provides an environment to run applications
+
+Types of OS?
+Windows, iOS, Andriod, Linux....
+
+Linux OS is commonly in real-time
+
+Windows Vs Linux
+Windows is a single user based OS
+Linux is multi-user based OS
+
+Windows is premium
+Linux is Free and Open Source
+Netflix	-----> Java Code	----> If code is available for public use, then it is called as Open Source
+
+Windows OS doesn't have better security features
+Linux OS is fully secure
+
+Windows OS is recommended for personal use
+Linux OS is preferred for professional use
+
+Windows OS is developed and owned by Microsoft organization
+Linux OS is developed by Linus Torvalds
+
+Windows OS is GUI based
+Linux OS is CLI based
+
+All the commands in Linux OS are case sensitive 
+mkdir	----> MKDIR
+
+Linux Distributions/Flavours?
+A Linux distribution is an OS that is built on top of Linux kernel
+Different distributions are tailored for various use cases
+
+Chicken Biryani	------> Hyderabad Biryani (Authentic)
+Bangalore -----> Hyderabad Biryani
+Chennai -----> Hyderabad Biryani
+
+in AWS cloud, most of these distributions are available as AMIs (Amazon Machine Images)
+	1. RPM based - RedHat Package Manager
+		- RedHat
+		- CentOS
+		- Amazon Linux 2023
+
+	2. Debian based
+		- Suse
+		- Ubuntu
+
+Linux Architecture?
+Linux follows a layered architecture.
+3 main layers;
+	shell
+	kernel
+	hardware components
+
+To work with Linux OS, we will use Virtual Machines
+AWS	------> EC2 (Elastic Compute Cloud) Service	------> Launch Virtual Machines	------> MobaXTerm*/PuTTY -----> IP Address (Public IP & Private IP)
+
+Launch Virtual Machines;
+	Name: Linux Server (Optional)
+	AMI: Select the OS - Amazon Linux
+	Instance Type: t2.micro, t2.medium, t2.large.... Each instance type will charge accordingly (t2.micro)
+	Key pair: Create a key-pair (Formats: .pem (MobaXTerm), .ppk (Putty)
+	Networking: Default Network
+	Storage: Default storage (8GB) - Extend upto 30 GB (Free)
+	Number of instances: 1
+
+
+100 Dollars	+ 100 Dollars	= 200 Dollars
+
+Amazon Linux	-----> Username: ec2-user
+Ubuntu			-----> Username: ubuntu
+
+All servers in the cloud will follow UTC timezone
+
+User types in servers;
+	ec2-user (Amazon Linux) / ubuntu (Ubuntu)	- who will have least prevelages 
+	root											- who will have all kinds of prevelages
+
+ec2-user	($)---> /home/ec2-user path
+sudo su	(#)---> root	----> /home/ec2-user path
+sudo su - (#)---> root	----> /root ----> Default directory structure of linux
+sudo -i (#)---> root	----> /root 
+sudo su 
+
+Default directory structure;
+cd / ---> ls ----> Default directories
+
+Commands Disscussed;
+    1  cat /etc/os-release
+    2  cal
+    3  cal 2026
+    4  cal decemeber 2026
+    5  cal Decemeber 2026
+    6  cal Dec 2026
+    7  cal -3
+    8  cal -2
+    9  cal -4
+   10  cal -1
+   11  date
+   12  clear
+   13  whoami
+   14  whomai
+   15  whoami
+   16  sudo su
+   17  whoami
+   18  clear
+   19  pwd
+   20  whomai
+   21  whoami
+   22  pwd
+   23  sudo su
+   24  whoami
+   25  pwd
+   26  sudo su -
+   27  whoami
+   28  pwd
+   29  clear
+   30  whoami
+   31  sudo -
+   32  sudo -i
+   33  whoami
+   34  pwd
+   35  history
+   36  uptime
+   37  history
+   38  history -d 14
+   39  history
+   40  cal Dec 2026
+   41  pwd
+   42  whoami
+   43  clear
+   44  pwd
+   45   cd /
+   46  pwd
+   47  ls
+   48  whomai
+   49  whoami
+   50  man whoami
+   51  man pwd
+   52  man sudo
+   53  ls --help
+   54  pwd --help
+   55  clear
+   56  which ls
+   57  which pwd
+   58  which whoami
+   59  bc
+   60  history
+
+Playlist: https://www.youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

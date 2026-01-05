@@ -1,0 +1,152 @@
+Multi-cloud with DevOps
+=======================
+AWS*
+Azure**
+GCP***
+
+DevOps
+1. Linux Fundamentals & Shell Scripting
+2. Git and GitHub 
+3. Maven
+4. Tomcat + Jenkins, Nexus, SonarQube 
+5. Docker
+6. Kubernetes
+7. Ansible
+8. Terraform
+9. Monitoring (Prometheus + Grafana)
+10. 3 Capstone Projects
+
+Python Scripting
+
+Shell Scripting - DIY
+
+DevOps Overview		- 1 day
+Linux 					- 4 days
+Git and GitHub 			- 4 days
+Maven					- 1 day
+Tomcat, Jenkins, N, SQ	- 5 days	(3 projects)
+Docker					- 5 days (3 projects)
+Kubernetes				- 8 days (2 projects)
+Ansible					- 4 days (1 project)
+Terraform				- 4 days (1 project)
+Capstone Projects		- 1 day
+
+DevOps - 60 hours*
+=================================================================
+DevOps Overview
+
+Project - Netflix
+Teams: 
+1) Development Team (Developers) - Develop the application
+2) Testing Team (Testers) - Test the code
+3) Operations Team (Operations/DevOps Engineers) - Deploy the application into the servers - Manual, Automated
+4) DB Team (DB Engineers) - Collect/Retrieve the data
+
+Cloud Architects			- 8+ years	- design architecture 
+
+Cloud Engineer			- Architectures - Infrastructure Setup
+DevOps Engineer		- Infrastructure Setup + Automate the application deployment + Monitoring +Debugging
+SRE					- Monitoring + Automate the application deployment
+Platform Engineer		- Debugging + Monitoring + Automate the application deployment
+
+Activities of Development Team
+	Understand the client requirements
+	Developing the code
+	Store the code in the code repo (GitHub)
+	Testing team tests the code
+
+Activities of Operations Team
+	Setup the infrastructure
+	Build & Package of code - Artifacts
+	Store the artifacts - Nexus/JFrog
+	Code Quality Analysis - SonarQube 
+	Application deployment
+	Monitoring
+	Debugging
+	
+SDLC - Software Development Life Cycle
+It is the process of developing and deploying the app into the servers
+
+Phases of SDLC;
+Requirements of client
+Requirements gathering phase
+Development team
+Testing team
+Operations team
+Monitoring team
+Deliver the app to the client
+Monitoring team
+
+SDLC Methodologies
+Waterfall model
+Spiral model
+V model
+....
+Agile model
+
+
+Waterfall model;
+The entire process of developing an application will flow from top to bottom - linear methodology
+Whenever client comes up with a new requirement, the process of developing an app will be starting from the beginning
+The time to complete the project will be extended
+The requirements of the client are fixed
+The app cannot sustain in the market
+Client can see the output of the app only after the deployment
+There is a high chance for project failure
+Client cannot give feedback
+
+Agile model;
+In this, the entire project will be divided into multiple parts (sprints)
+PhonePe ----> Recharge, Insurance, Investment, Pay the bills, Money transactions....
+Recharge feature --- developer - code, testing, deploying the code - call the client - feedback - enhance the app design - call the client - feedback --- deploy the feature
+Insurance feature --- developer - code, testing, deploying the code - call the client - feedback - enhance the app design - call the client - feedback --- deploy the feature
+
+Client involvement is very high
+Continuous feedback
+Continuous development
+There is a high chance for success of the project
+2001 - John Kern and Martin Fowler
+
+
+Who is a DevOps engineer?
+DevOps engineer is someone who is going to establish a communication between the different teams working for the project
+
+Developers
+Testers
+Operations
+
+DevOps - Development + Operations
+
+Pre-requisite
+OS - Linux
+
+AWS Account
+	Valid Email
+	Valid Credit/Debit
+	Valid PAN
+	Valid Address
+
+1 Rs
+
+https://youtu.be/5MRTCayjzQk?si=Jcf769dpcugxtjp2
+https://youtu.be/L4bjhRCXUuw?si=V5Sd4DG5grk9Aty8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

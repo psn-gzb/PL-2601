@@ -1,0 +1,241 @@
+Module 2: Linux Fundamentals | Day 03 | 05-01-2025 (Revision of Day 02)
+============================================================================================================
+Linux is one type of OS
+
+What is an OS?
+OS is a software which is used to communicate with the device (laptop/desktop/mobile/physical server/virtual server)
+
+Types of OS?
+Windows, Linux, Mac
+
+A Linux OS is preferred in the real-time scenarios as a software engineer
+
+Windows Vs Linux
+Windows OS is single user based OS
+Linux OS is multi user based OS
+
+Windows OS is a premium (not free)
+Linux OS is free and open source
+
+Hotstar ----> Writing the code (5 months) ----> Code will not be kept in the public domain
+Linux ----> Written the code (5 months) ----> Code kept in the public domain ----> Open Source
+
+Windows is developed and owned by Microsoft
+Linux is developed by Linus Torvalds
+
+Windows doesn't have better security features
+Linux is fully secure
+
+Windows is recommended for personal use
+Linux is preferred for professional purposes
+
+Windows is GUI based
+Linux is CLI based
+
+All the commands in Linux are case sensitive
+
+Linux Distributions;
+Any OS which is developed on top of original Linux code is known as Linux Distribution/Flavour
+In AWS cloud, we call the distributions as AMIs (Amazon Machine Image)
+
+1. RPM based (RedHat Package Manager)
+	RedHat
+	Cent OS
+	Amazon Linux 2023
+
+2. Debian based
+	Suse
+	Ubuntu
+
+OS Type				Default user-name
+Amazon Linux			ec2-user
+Ubuntu					ubuntu
+RedHat					ec2-user
+
+Linux Architecture
+Linux follows a layered architecture
+It has 3 main layers
+	Shell						- mediator between users and kernel
+	Kernel						- it will receive the instructions from shell (heart of Linux OS)
+	Hardware Components		- CPU, RAM, ....
+
+AWS Cloud		------> EC2 (Elastic Compute Cloud)	-----> Launch an Instance (Virtual Server/Machine)		-----> Connect with VM	----> Execute the commands
+
+Configurations to launch an instance;
+Name the instance (optional)
+Selection of AMI (OS) (Amazon Linux/Ubuntu/RedHat)
+Selection of instance type (t2.micro, t2.nano, t2.medium, t2.large.....)
+Network (default network - VPC)
+Keypair (which is used to connect with the server)
+Storage (EBS - default 8GB)
+Number of instances (1)
+
+==================================================
+AWS Account
+	Valid Email ID
+	Valid PAN Card
+	Valid Credit or Debit Card
+
+Start with USD $100 in AWS credits, plus earn up to USD $100 by completing various activities.
+==================================================
+DevOps Concepts/Tools;
+1. Linux & Shell Scripting (DIY)			- 4 days
+2. Git and GitHub 						- 4 days
+3. Maven								- 1 day
+4. Tomcat								- 1 day
+5. Jenkins, Nexus, SonarQube				- 5 days
+6. Docker								- 5 days
+7. Kubernetes							- 8 days
+8. Ansible								- 4 days
+9. Terraform								- 4 days
+10. Capstone Projects						- 1 day
+
+AWS Cloud ----> EC2 Service
+======================================================
+Region ----> EC2 Service is a region specific service
+
+For every instance that is launched, we will have a Public IP and Private IP
+By using the Public IP we can connect with the server, especially by using 3rd party tools
+By using the Private IP we can connect one server with another server internally
+
+Public IP is dynamic - it changes whenever we stop and restart the same instance
+Private IP is static
+
+If you delete the instance, both the public IP and private IP will be deleted. And also, the entire data along with the instance will be deleted permanently. There is no way of getting back the server which is deleted/terminated.
+
+All the servers in the AWS Cloud will follow UTC time zone
+Universal Coordinated Timezone
+
+In Linux we have users. By default we will get 2 types of users;
+1. ec2-user (Amazon Linux), ubuntu (Ubuntu)	- which has least privileges 
+2. root										- which has all kinds of privileges
+
+
+ec2-user				/home/ec2-user			$ 
+root					/home/ec2-user			# (sudo su)
+root					/home/ec2-user			# (sudo -s)
+root					/root					# (sudo su -)
+root					/root					# (sudo -i)
+
+Linux Directory Structure
+
+
+    1  whoami
+    2  yum install maven -y
+    3  clear
+    4  whoami
+    5  exit
+    6  whomai
+    7  whoami
+    8  pwd
+    9  exit
+   10  whoami
+   11  pwd
+   12  exit
+   13  whoami
+   14  pwd
+   15  exit
+   16  whoami
+   17  pwd
+   18  man pwd
+   19  man ls
+   20  man sudo
+   21  pwd --help
+   22  sudo --help
+   23  whoami --help
+   24  clear
+   25  bc
+   26  pwd
+   27  cd /
+   28  pwd
+   29  ls
+   30  which ls
+   31  which pwd
+   32  which sudo
+   33  history
+   34  whoami
+   35  pwd
+   36  history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
