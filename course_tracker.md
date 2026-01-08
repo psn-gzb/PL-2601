@@ -2,7 +2,7 @@
 
 ![Progress](https://img.shields.io/badge/Progress-7%2F35%20Days-blue)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Focus](https://img.shields.io/badge/Focus-DevOps%20%7C%20Linux%20%7C%20Git-green)
+![Focus](https://img.shields.io/badge/Focus-DevOps%20%7C%20Linux%20%7C%20Git%20%7C%20Maven%20%7C%20Tomcat%20%7C%20Jenkins%20%7C%20Nexus%20%7C%20SonarQube%20%7C%20Docker%20%7C%20Kubernetes%20%7C%20Ansible%20%7C%20Terraform%20%7C%20Monitoring%20%7C%20CapstoneProjects-green)
 
 This repository documents my **35-day DevOps learning journey**, covering theory, hands-on labs, and real-world DevOps practices. It serves as a structured reference for revision, practice, and portfolio building.
 
