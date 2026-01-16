@@ -39,4 +39,5 @@ A comprehensive 35-day DevOps training program covering essential tools and prac
 ### **Phase 3: Maven and Tomcat (Manual Deployment)** 
 | Date | Module | Topics Covered | Status |
 |------|--------|----------------|--------|
-| **19 Jan 2026** | DevOps Fundamentals | Yet to discuss | ⏳ Pending |
+| **19 Jan 2026** | Maven | Yet to discuss | ⏳ Pending |
+| **20 Jan 2026** | Tomcat | Yet to discuss | ⏳ Pending |
