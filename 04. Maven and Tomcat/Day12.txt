@@ -119,7 +119,8 @@ Job 1 - movies
 Job 2 - sports
 Job 3 - documentaries
 
-Note: All the jobs must be built atleast
+Note: All the jobs must be built atleast once
+
 
 
 
