@@ -40,7 +40,7 @@ A comprehensive 35-day DevOps training program covering essential tools and prac
 | Date | Module | Topics Covered | Status |
 |------|--------|----------------|--------|
 | **19 Jan 2026** | Maven & Tomcat | Introdution, Maven Features, Goals/Lifecycle, Standalone and Web Apps, Maven Repos, Tomcat Introduction, Downloading Tomcat, Understanding Tomcat Directory Structure  | ✅ Completed |
-| **20 Jan 2026** | Maven & Tomcat | Yet to discuss | ✅ Completed |
+| **20 Jan 2026** | Maven & Tomcat | Tomcat | ✅ Completed |
 
 ### **Phase 4: Jenkins (Automation of Deployments)** 
 | Date | Module | Topics Covered | Status |
@@ -54,10 +54,10 @@ A comprehensive 35-day DevOps training program covering essential tools and prac
 | Date | Module | Topics Covered | Status |
 |------|--------|----------------|--------|
 | **27 Jan 2026** | Docker | Introduction, Understanding Containerization, Docker Workflow, Understanding Basic Docker Commands, Dockerfile - FROM, RUN, CMD | ✅ Completed |
-| **29 Jan 2026** | Docker | Yet to discuss | ⏳ Pending |
-| **30 Jan 2026** | Docker | Yet to discuss | ⏳ Pending |
-| **02 Feb 2026** | Docker | Yet to discuss | ⏳ Pending |
-| **03 Feb 2026** | Docker | Yet to discuss | ⏳ Pending |
+| **29 Jan 2026** | Docker | Dockerfile (Continuation), App Deployment, Docker Volumes | ✅ Completed |
+| **30 Jan 2026** | Docker | Docker Compose, App Deployment, Working with Dockerhub, Load Balancing with Docker | ⏳ Pending |
+| **02 Feb 2026** | Docker | Multi Stage Dockerfile, Deploying various apps, .dockerignore, Docker Networks | ⏳ Pending |
+| **03 Feb 2026** | Docker | Docker Portrainer, Final Project, Limitations of Dockerswarm | ⏳ Pending |
 
 ### **Phase 6: Kubernetes (Managing the Containers)** 
 | Date | Module | Topics Covered | Status |
