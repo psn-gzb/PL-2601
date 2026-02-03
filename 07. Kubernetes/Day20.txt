@@ -1,0 +1,55 @@
+Module 6: Kubernetes | Day 20 | 03-02-2026
+============================================================================================================
+K8s
+Open-source container orchestration platform that automates;
+	deployments
+	scaling
+	load balancing
+	management of different applications
+Originally developed by Google 2014
+In 2015 CNCF has acquired K8s and made it open-source and free
+
+What is a Cluster? Cluster Components?
+A cluster means a group of servers (Physical Servers /Virtual Machines) that works together to run the containerized applications.
+Control Plane / Master Node
+	Manages scheduling, scaling, monitoring
+Data Plane / Worker Nodes
+	Each task coming from the control plane will get executed on the worker nodes
+
+Types of Clusters;
+Self Managed Clusters
+	minikube	- single node cluster - for beginners
+	kubeadm	- multi node cluster - manual maintenance 
+	kops		- multi node cluster - manual maintenance 
+	kind
+	kubespray
+	rancher
+
+Cloud Managed Clusters
+	AWS - EKS (Elastic K8s Service)**
+	GCP - GKE (Google K8s Engine)
+	Azure - AKS (Azure K8s Service)
+	IBM - IKE (IBM K8s Engine)
+
+Methods of Cluster Setup
+	AWS Console
+	CLI
+	YAML
+	Terraform
+
+Creation of K8s Resources
+Imperative		- commands will be execute	- create a pod	- kubectl run nginx-pod --image=nginx
+Declarative		- YAML (manifest files)		- create a pod	- write the pod manifest					- execute the yml	- kubectl apply -f <FileName>.yml
+
+Automation
+Clarity
+Reusability 
+
+Any k8s manifest file will have an extension as .yml or .yaml
+
+Structure of a Manifest File;
+4 core sections of a manifest file
+apiVersion	- defines the k8s workload / resource API Version
+kind		- what type of k8s resource/workload you want to create
+metadata	- here we will write information about the resource
+spec		- here we will write the containers and image specifications
