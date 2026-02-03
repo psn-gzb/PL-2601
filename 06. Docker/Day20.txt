@@ -1,0 +1,49 @@
+Module 5: Docker | Day 20 | 03-02-2026
+============================================================================================================
+Docker Final Project
+Clone Starbucks App:
+https://github.com/KastroVKiran/Starbucks-App-Kastro.git
+
+=> 	Installation of Jenkins
+sudo apt update
+sudo apt install fontconfig openjdk-21-jre
+java -version
+
+sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt update
+sudo apt install jenkins
+
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+
+=> Installation of Docker
+apt  install docker.io -y
+
+sudo usermod -aG docker jenkins
+systemctl restart docker
+systemctl restart jenkins
+
+
+Plugins: Pipeline Stageview, NodeJS, Docker related plugins
+
+
+==================
+Docker Swarm
+==================
+Docker Swarm is a container orchestration (managing the containers) platform
+Docker Swarm Cluster
+
+Autoscaling is not possible
+Security
+Restart of container is not possible
+Load balancing is not possible
+
+To automate all of these things, we have the advanced way of managing containers i.e KUBERNETES
+
+
+
