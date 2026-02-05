@@ -62,4 +62,6 @@ A comprehensive 35-day DevOps training program covering essential tools and prac
 | Date | Module | Topics Covered | Status |
 |------|--------|----------------|--------|
 | **03 Feb 2026** | Kubernetes | Orchestration, Orchestration Platforms, K8s Intro, Cluster and its Components, K8s Architecture, Types of Clusters, Workloads, Methods of Creation of Resources, Structure of YAML File  | ✅ Completed |
-| **05 Feb 2026** | Kubernetes | Yet to discuss | ⏳ Pending |
+| **05 Feb 2026** | Kubernetes | Creation of EKS Cluster, Basic Commands, Pods - Types | ✅ Completed |
+| **06 Feb 2026** | Kubernetes | Pods - Types, Services - Types, Namespaces | ✅ Completed |
+| **09 Feb 2026** | Kubernetes | Yet to discuss | ⏳ Pending |
