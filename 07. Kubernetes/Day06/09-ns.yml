@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-ns-dev
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: nginx-ns
+  template:
+    metadata:
+      labels:
+        app: nginx-ns
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx
+      nodeSelector:
+        env: dev
