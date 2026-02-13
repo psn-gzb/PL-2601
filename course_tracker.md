@@ -67,5 +67,5 @@ A comprehensive 35-day DevOps training program covering essential tools and prac
 | **09 Feb 2026** | Kubernetes | Kubernetes Controllers, Deployments | ✅ Completed |
 | **10 Feb 2026** | Kubernetes | Storage in Kubernetes - PV, PVC, Resource Quota, HPA | ✅ Completed |
 | **12 Feb 2026** | Kubernetes | StatefulSet, ConfigMap, Secrets, Pod Scheduling Strategies: Node Selector | ✅ Completed |
-| **13 Feb 2026** | Kubernetes | Pod Scheduling Strategies: Node Affinity, Pod Affinity & Anti-Affinity, Ingress Controller, ArgoCD | ⏳ Pending |
+| **13 Feb 2026** | Kubernetes | Pod Scheduling Strategies: Node Affinity, Pod Affinity & Anti-Affinity, Ingress Controller, ArgoCD | ✅ Completed |
 | **16 Feb 2026** | Kubernetes | Grafana, Prometheus, RBAC, Taints and Tolerations, Cluster Autoscaler | ⏳ Pending |
