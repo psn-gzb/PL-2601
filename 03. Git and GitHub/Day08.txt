@@ -1,5 +1,5 @@
 Module 2: Git and GitHub | Day 08 | 13-01-2025
-============================================================================================================
+==================================================.............................................................==========================================================
 Changing the commit messages;
 git commit --amend -m "my third commit: line 3"
 
@@ -104,6 +104,7 @@ git revert creates a new commit that removes the changes made by another commit
 
 git revert <commit-id>
 git revert HEAD
+
 
 
 
