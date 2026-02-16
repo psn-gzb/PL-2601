@@ -68,4 +68,20 @@ A comprehensive 35-day DevOps training program covering essential tools and prac
 | **10 Feb 2026** | Kubernetes | Storage in Kubernetes - PV, PVC, Resource Quota, HPA | ✅ Completed |
 | **12 Feb 2026** | Kubernetes | StatefulSet, ConfigMap, Secrets, Pod Scheduling Strategies: Node Selector | ✅ Completed |
 | **13 Feb 2026** | Kubernetes | Pod Scheduling Strategies: Node Affinity, Pod Affinity & Anti-Affinity, Ingress Controller, ArgoCD | ✅ Completed |
-| **16 Feb 2026** | Kubernetes | Grafana, Prometheus, RBAC, Taints and Tolerations, Cluster Autoscaler | ⏳ Pending |
+| **16 Feb 2026** | Kubernetes | Grafana, Prometheus, RBAC, HELM, Cluster Autoscaler | ✅ Completed |
+
+### **Phase 7: Ansible (Configuration Management)** 
+| Date | Module | Topics Covered | Status |
+|------|--------|----------------|--------|
+| **16 Feb 2026** | Ansible | Ansible Introduction | ✅ Completed |
+| **17 Feb 2026** | Ansible | Yet to Discuss | ⏳ Pending |
+| **18 Feb 2026** | Ansible | Yet to Discuss | ⏳ Pending |
+| **19 Feb 2026** | Ansible | Yet to Discuss | ⏳ Pending |
+
+### **Phase 8: Terraform (Infrastructure Automation)** 
+| Date | Module | Topics Covered | Status |
+|------|--------|----------------|--------|
+| **20 Feb 2026** | Terraform | Yet to Discuss | ⏳ Pending |
+| **23 Feb 2026** | Terraform | Yet to Discuss | ⏳ Pending |
+| **24 Feb 2026** | Terraform | Yet to Discuss | ⏳ Pending |
+| **25 Feb 2026** | Terraform | Yet to Discuss | ⏳ Pending |
